@@ -15,5 +15,5 @@
 #### 2. Data Ingestion - Azure Data Factory (ADF) is used to orchestrate and automate the data ingestion process from Kaggle into Azure Data Lake Storage Gen2.
 #### 3. Data Storage - Raw data ingested through ADF is stored in Azure Data Lake Storage Gen2 in a raw data zone.
 #### 4. Data Transformation - Azure Databricks is employed for data cleaning, transformation, and preparation. The transformed data is then stored back in Azure Data Lake Storage Gen2 in a processed data zone.
-#### 5. Data Analytics - Azure Synapse Analytics is used to run SQL functions and queries on the transformed data for further analysis and data modeling.
+#### 5. Data Analytics - Azure Synapse Analytics is used to run SQL functions and queries on the transformed data for further analysis and data modeling (Refer the SQL scripts provided).
 #### 6. Data Visualization - Power BI is utilized to create interactive dashboards and visualizations to present insights derived from the Tokyo Olympics data.
