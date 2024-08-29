@@ -11,9 +11,12 @@
 
 ![alt text](image.png)
 
-#### 1. Data Source - The data is sourced from Kaggle, which contains detailed information about the Tokyo Olympics Disciplines, athletes, Medals, coaches and entries.
+#### 1. Data Source - The data is sourced from my publically available google drive, which contains detailed information about the Tokyo Olympics Disciplines, athletes, Medals, coaches and entries.
 #### 2. Data Ingestion - Azure Data Factory (ADF) is used to orchestrate and automate the data ingestion process from Kaggle into Azure Data Lake Storage Gen2.
 #### 3. Data Storage - Raw data ingested through ADF is stored in Azure Data Lake Storage Gen2 in a raw data zone.
 #### 4. Data Transformation - Azure Databricks is employed for data cleaning, transformation, and preparation. The transformed data is then stored back in Azure Data Lake Storage Gen2 in a processed data zone.
 #### 5. Data Analytics - Azure Synapse Analytics is used to run SQL functions and queries on the transformed data for further analysis and data modeling (Refer the SQL scripts provided).
 #### 6. Data Visualization - Power BI is utilized to create interactive dashboards and visualizations to present insights derived from the Tokyo Olympics data.
+
+#### Power BI Dashboard - https://app.powerbi.com/view?r=eyJrIjoiZjYzMzI2OWYtODkyMi00NDVlLTkzNDAtNmNlNWQwM2FkZmY5IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9
+#### I have also added the ppt of the dashboard for those who do not have PowerBI account as a reference.
